@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0
+}
+.normalPanel .panelContent {
+    text-align: center;
+}
+.normalPanel .wrp_code {
+    position: relative;
+    width: 240px;
+    margin: 0 auto
+}
+.impowerBox .title {
+	font-size: 28px;
+	line-height: 28px;
+}
+.normalPanel .info {
+    
+}
+.impowerBox .qrcode {
+    width: 240px;
+    height: 240px
+}

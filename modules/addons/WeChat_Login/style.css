@@ -1,0 +1,72 @@
+.table > thead > tr > th {
+	background-color: #EAEAEA;
+    border-bottom:1px solid #EAEAEA;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+.table > thead > tr > th:first-child {
+	border-radius: 3px 0 0 0;
+}
+.table > thead > tr > th:last-child {
+	border-radius: 0 3px 0 0;
+}
+.table > tbody > tr > td {
+    padding: 8px 12px;
+    border-left:1px solid #EAEAEA;
+    border-top:1px solid #EAEAEA;
+    vertical-align: middle;
+}
+.table td:first-child {
+    border-left:0;
+    border-left:0;
+}
+a.list-group-item .list-group-item-heading {
+    color: #777;
+}
+.list-group-item-text {
+    color: #999;
+}
+.panel-heading > .badge {
+    float: right;
+}
+ul, li {
+    list-style: none;
+}
+@media only screen and (max-width: 768px) {
+    #unseen table td:nth-child(2),
+    #unseen table th:nth-child(2),
+    #unseen .autohide,
+    #unseens .autohide {
+        display: none;
+    }
+    #unseen table th,
+    #unseens table th {
+        border-top: 1px solid #EEE;
+    }
+}
+@media (max-width: 1200px) {
+    .table-responsive {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table > thead > tr > th,
+    .table-responsive > .table > tbody > tr > th,
+    .table-responsive > .table > tfoot > tr > th,
+    .table-responsive > .table > thead > tr > td,
+    .table-responsive > .table > tbody > tr > td,
+    .table-responsive > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+    #unseen .autohides {
+        display: none;
+    }
+    #unseen .autoset {
+        border-radius: 3px;
+    }
+}
